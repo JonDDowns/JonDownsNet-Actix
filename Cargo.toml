@@ -1,0 +1,16 @@
+[package]
+name = "jondownsnet_actix"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix = "0.13.3"
+actix-utils = "3.0.1"
+actix-web = "4.5.1"
+actix-web-lab = "0.20.2"
+env_logger = "0.11.3"
+log = "0.4.21"
+minijinja = {version = "1.0.16", features = ["loader"] }
+minijinja-autoreload = "1"
